@@ -16,7 +16,7 @@ class ContaBancaria
       puts "Saldo do usuário #{conta2.usuario} é #{conta2.saldo}"
 
     else
-      puts "Valor indisponível"
+      puts "Saldo insuficiente"
     end
   end
 end
