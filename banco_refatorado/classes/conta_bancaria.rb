@@ -10,7 +10,9 @@ class ContaBancaria
       debitar(valor)
       outra_conta.depositar(valor)
     else
-      puts "Saldo insuficiente"
+      #puts "Saldo insuficiente"
+      #raise lanca uma exception
+      raise "Saldo insuficiente"
     end
   end
   
